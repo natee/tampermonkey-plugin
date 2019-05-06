@@ -36,6 +36,7 @@
   // @connect        *
   // @connect        *://*.qidian.com/
 
+  // readme中列出的
   // @include        *://read.qidian.com/*,*.aspx
   // @include        *://readbook.qidian.com/bookreader/*,*.html
   // @include        *://read.qidian.com/BookReaderOld/*,*.aspx
@@ -46,58 +47,58 @@
   // @include        *://vipreader.qidian.com/chapter/*/*
   // @include        *://www.qdmm.com/BookReader/*,*.aspx
   // @include        *://www.qdwenxue.com/BookReader/*,*.aspx
+  // @include        *://book.zongheng.com/chapter/*/*.html
   // @include        *://chuangshi.qq.com/read/bookreader/*.html*
   // @include        *://chuangshi.qq.com/*bk/*/*-r-*.html*
-  // @include        *://yunqi.qq.com/*bk/*/*.html
-  // @include        *://dushu.qq.com/read.html?bid=*
   // @include        *://www.jjwxc.net/onebook.php?novelid=*
   // @include        *://my.jjwxc.net/onebook_vip.php?novelid=*&chapterid=*
-  // @include        *://book.zongheng.com/chapter/*/*.html
   // @include        *://www.xxsy.net/chapter/*.html
   // @include        *://book.zhulang.com/*/*.html
+  // @include        *://shouda8.com/*/*.html
+
+  // @include        *://www.ranwena.com/files/article/*/*/*.html
+  // @include        *://www.shumil.com/*/*.html
+  // @include        *://www.bhzw.cc/book/*/*/*.html
+  // @include        *://www.60355.com/*/*/
+  // @include        *://www.du00.com/read/*/*/*.html
+  // @include        *://www.sqsxs.com/*/*/*.html*
+  // @include        *://www.biqudu.com/*/*.html
+
   // @include        *://www.17k.com/chapter/*/*.html
   // @include        *://mm.17k.com/chapter/*/*.html
-  // @include        *://www.kanxia.net/k/*/*/*.html
-  // @include        *://www.qingdi.com/files/article/html/*/*/*.html
   // @include        *://www.xkzw.org/*/*.html
-  // @include        *://shouda8.com/*/*.html
-  // @include        *://novel.hongxiu.com/*/*/*.shtml
-  // @include        *://www.readnovel.com/novel/*.html
+  // @include        *://www.luoqiu.net/html/*/*/*.html
+  // @include        *://www.luoqiu.com/html/*/*/*.html
+  // @include        *://www.luoqiu.com/read/*/*.html
+  // end readme中列出的
+
+  // 这里是自己加的
   // @include        *://www.sczprc.com/*
   // @include        *://www.pfwx.com/*
-  // http://www.tianyabook.com/*/*.htm
+  // end 自己增加的
 
-  // @include        *://tieba.baidu.com/p/*
+  // readme中未列出的
+  // @include        *://yunqi.qq.com/*bk/*/*.html
+  // @include        *://dushu.qq.com/read.html?bid=*
 
-  // @include        *://www.shumil.com/*/*.html
-  // @include        *://www.wcxiaoshuo.com/wcxs-*-*/
-  // @include        *://www.xiaoshuoz.com/wcxs-*-*/
-  // @include        *://www.quledu.com/wcxs-*-*/
-  // @include        *://www.ranwen.cc/*/*/*/*.html
-  // @include        *://www.ranwen.net/files/article/*/*/*.html
-  // @include        *://www.ranwena.com/files/article/*/*/*.html
+  // @include        *://novel.hongxiu.com/*/*/*.shtml
+  // @include        *://www.readnovel.com/novel/*.html
+  // end readme中未列出的
+
+
   // @include        *://www.64mi.com/*/*/*/*.html
-  // @include        *://www.bxs.cc/*/*.html*
   // @include        *://www.laishuwu.com/html/*/*/*.html
-  // @include        *://www.binhuo.com/html/*/*/*.html
-  // @include        *://www.haoqi99.com/haoqi99/*/*/*.shtml
-  // @include        *://www.shuhe.cc/*/*/
   // @include        *://www.dudukan.net/html/*/*/*.html
-  // @include        *://www.hahawx.com/*/*/*.htm
   // @include        *://www.zhuzhudao.com/txt/*/*/
   // @include        *://www.zhuzhudao.cc/txt/*/*/
   // @include        *://www.dahaomen.net/txt/*/*/
   // @include        *://www.tadu.com/book/*/*/
   // @exclude        *://www.tadu.com/book/*/toc/
   // @include        *://www.aishoucang.com/*/*.html
-  // @include        *://www.wanshuba.com/Html/*/*/*.html
   // @include        *://www.zhuishu.net/files/article/html/*/*/*.html
-  // @include        *://www.sqsxs.com/*/*/*.html*
   // @include        *://www.caiwei.tw/html/*/*.html
-  // @include        *://www.hotsk.com/Html/Book/*/*/*.shtml
   // @include        *://www.92to.com/*/*/*.html
   // @include        *://www.qirexs.com/read-*-chapter-*.html
-  // @include        *://www.du00.com/read/*/*/*.html
   // @include        *://www.qishuwu.com/*/*/
   // @include        *://www.wandoou.com/book/*/*.html
   // @include        *://www.6yzw.org/*/*.html
@@ -201,19 +202,9 @@
   // @include        *://www.1kanshu.com/files/article/html/*/*/*.html
   // @include        *://www.uutxt.org/book/*/*/*.html
   // @include        *://www.5800.cc/*/*/*/*.html
-  // @include        *://www.biquge.com/*/*.html
-  // @include        *://www.biqudu.com/*/*.html
-  // @include        *://www.biquge.la/book/*/*.html
-  // @include        *://www.biquge.com.tw/*/*.html
-  // @include        *://www.biquge.tw/*_*/*.html
-  // @include        *://www.biquge.tv/*/*.html
-  // @include        *://www.biquge5200.com/*/*.html
-  // @include        *://www.biqugezw.com/*/*.html
   // @include        *://www.bequgezw.com/*/*/*.html
   // @include        *://www.biquzi.com/*_*/*.html
-  // @include        *://www.biquge.cc/html/*/*/*.html
   // @include        *://www.biqubao.com/book/*/*.html
-  // @include        *://www.biquwu.cc/biquge/*/*.html
   // @include        *://www.qududu.com/book/*/*/*.html
   // @include        *://www.free97.cn/book/*/*/*.html
   // @include        *://www.122s.com/book/*/*.html
@@ -251,8 +242,7 @@
   // @include        *://www.59to.com/files/article/xiaoshuo/*/*/*.html
   // @include        *://www.dyzww.com/cn/*/*/*.html
   // @include        *://www.9wh.net/*/*/*.html
-  // @include        *://www.luoqiu.net/html/*/*/*.html
-  // @include        *://www.luoqiu.com/html/*/*/*.html
+
   // @include        *://www.epzw.com/files/article/html/*/*/*.html
   // @include        *://www.dashubao.co/book/*/*/*.html
   // @include        *://b.faloo.com/p/*/*.html
@@ -318,7 +308,6 @@
   // @include        *://www.bqg5200.com/xiaoshuo/*/*/*.html
   // @include        *://www.50zw.la/book_*/*.html
   // @include        *://www.qu.la/book/*/*.html
-  // @include        *://www.luoqiu.com/read/*/*.html
   // @include        *://www.54tushu.com/book_library/chaptershow/theId/*.html
   // @include        *://www.snwx8.com/book/*/*/*.html
   // @include        *://read.qidian.com/chapter/*
@@ -547,7 +536,7 @@
     // 详细版规则示例。注：该网站已无法访问。
     {
       siteName: "泡书吧",                                               // 站点名字... (可选)
-      url: "^https?://www\\.paoshu8\\.net/Html/\\S+\\.shtm$",          // // 站点正则... (~~必须~~)
+      url: "^https?://www\\.test\\.net/Html/\\S+\\.shtm$",          // // 站点正则... (~~必须~~)
 
       // 获取标题
       titleReg: /(.*?)最新章节 [-_\\\/](.*?)[-_\/].*/,         // 书籍标题、章节标题正则 (可选)
@@ -783,20 +772,6 @@
     },
 
     {
-      siteName: "百度贴吧（手动启用）",
-      enable: false,
-      url: /^https?:\/\/tieba\.baidu.com\/p\//,
-      titleSelector: "h1.core_title_txt",
-      bookTitleSelector: ".card_title_fname",
-      nextSelector: false,
-      indexSelector: 'a.card_title_fname',
-      prevSelector: false,
-
-      contentSelector: "#j_p_postlist",
-      contentRemove: "#sofa_post, .d_author, .share_btn_wrapper, .core_reply, .j_user_sign",
-      style: ".clear { border-top:1px solid #cccccc; margin-bottom: 50px; visibility: visible !important;}",  // 显示楼层的分割线
-    },
-    {
       siteName: "天涯书库",
       url: /www\.ty2016\.com\/.+\.html$/,
       titleSelector: "h1",
@@ -838,40 +813,6 @@
       url: "^https?://www\\.ranwen\\.net/files/article/\\d+/\\d+/\\d+\\.html",
       titleReg: "(\\S+) (.*) - 燃文小说",
       contentReplace: "\\(.*燃文小说.*\\)|【 注册会员可获私人书架，看书更方便！永久地址： 】 "
-    },
-    {
-      siteName: "无错小说网",
-      url: /^https?:\/\/www\.(?:wcxiaoshuo|xiaoshuoz|quledu)\.com\/wcxs[-\d]+\//,
-      titleReg: /(.*?)最新章节.*?-(.*?)-.*/,
-      titlePos: 1,
-      nextSelector: "a#htmlxiazhang",
-      prevSelector: "a#htmlshangzhang",
-      indexSelector: "a#htmlmulu",
-      contentReplace: [
-        'ilo-full-src="\\S+\\.jpg" ',
-        {
-          '(<center>)?<?img src..(http://www.wcxiaoshuo.com)?(/sss/\\S+\\.jpg).(>| alt."\\d+_\\d+_\\d*\\.jpg" />)(</center>)?': '$3',
-          "/sss/da.jpg": "打", "/sss/maws.jpg": "吗？", "/sss/baw.jpg": "吧？", "/sss/wuc.jpg": "无", "/sss/maosu.jpg": "：“", "/sss/cuow.jpg": "错", "/sss/ziji.jpg": "自己", "/sss/shenme.jpg": "什么", "/sss/huiqub.jpg": "回去", "/sss/sjian.jpg": "时间", "/sss/zome.jpg": "怎么", "/sss/zhido.jpg": "知道", "/sss/xiaxin.jpg": "相信", "/sss/faxian.jpg": "发现", "/sss/shhua.jpg": "说话", "/sss/dajiex.jpg": "大姐", "/sss/dongxi.jpg": "东西", "/sss/erzib.jpg": "儿子", "/sss/guolair.jpg": "过来", "/sss/xiabang.jpg": "下班", "/sss/zangfl.jpg": "丈夫", "/sss/dianhua.jpg": "电话", "/sss/huilaim.jpg": "回来", "/sss/xiawu.jpg": "下午", "/sss/guoquu.jpg": "过去", "/sss/shangba.jpg": "上班", "/sss/mingtn.jpg": "明天", "/sss/nvrenjj.jpg": "女人", "/sss/shangwo.jpg": "上午", "/sss/shji.jpg": "手机", "/sss/xiaoxinyy.jpg": "小心", "/sss/furene.jpg": "夫人", "/sss/gongzih.jpg": "公子", "/sss/xiansg.jpg": "先生", "/sss/penyouxi.jpg": "朋友", "/sss/xiaoje.jpg": "小姐", "/sss/xifup.jpg": "媳妇", "/sss/nvxudjj.jpg": "女婿", "/sss/xondi.jpg": "兄弟", "/sss/lagong.jpg": "老公", "/sss/lapo.jpg": "老婆", "/sss/meimeid.jpg": "妹妹", "/sss/jiejiev.jpg": "姐姐", "/sss/jiemeiv.jpg": "姐妹", "/sss/xianggx.jpg": "相公", "/sss/6shenumev.jpg": "什么", "/sss/cuoaw.jpg": "错", "/sss/fpefnyoturxi.jpg": "朋友", "/sss/vfsjgigarn.jpg": "时间", "/sss/zzhiedo3.jpg": "知道", "/sss/zibjib.jpg": "自己", "/sss/qdonglxi.jpg": "东西", "/sss/hxiapxint.jpg": "相信", "/sss/fezrormre.jpg": "怎么", "/sss/nvdrfenfjfj.jpg": "女人", "/sss/jhiheejeieev.jpg": "姐姐", "/sss/xdifagojge.jpg": "小姐", "/sss/gggugolgair.jpg": "过来", "/sss/maoashu.jpg": "：“", "/sss/gnxnifawhu.jpg": "下午", "/sss/rgtugoqgugu.jpg": "过去", "/sss/khjukilkaim.jpg": "回来", "/sss/gxhigfadnoxihnyy.jpg": "小心", "/sss/bkbskhhuka.jpg": "说话", "/sss/xeieavnfsg.jpg": "先生", "/sss/yuhhfuiuqub.jpg": "回去", "/sss/pdianphua.jpg": "电话", "/sss/fabxianr.jpg": "发现", "/sss/feilrpto.jpg": "老婆", "/sss/gxronfdri.jpg": "兄弟", "/sss/flfaggofng.jpg": "老公", "/sss/tymyigngtyn.jpg": "明天", "/sss/dfshfhhfjfi.jpg": "手机", "/sss/gstjhranjgwjo.jpg": "上午", "/sss/fmgeyimehid.jpg": "妹妹", "/sss/gxgihftutp.jpg": "媳妇", "/sss/cerztifb.jpg": "儿子", "/sss/gfxgigagbfadng.jpg": "下班", "/sss/gstjhranjg.jpg": "下午", "/sss/hjeirerm6eihv.jpg": "姐妹", "/sss/edajihexr.jpg": "大姐", "/sss/wesfhranrrgba.jpg": "上班", "/sss/gfognggzigh.jpg": "公子", "/sss/frurtefne.jpg": "夫人", "/sss/fzagnggfbl.jpg": "丈夫", "/sss/nvdxfudfjfj.jpg": "女婿", "/sss/xdidafnggx.jpg": "相公", "/sss/zenme.jpg": "怎么", "/sss/gongzi.jpg": "公子", "/sss/ddefr.jpg": "",
-        },
-        ".*ddefr\\.jpg.*|无(?:错|.*cuoa?w\\.jpg.*)小说网不[少跳]字|w[a-z\\.]*om?|.*由[【无*错】].*会员手打[\\s\\S]*",
-        "是 由",
-        "无错不跳字|无广告看着就是爽!|一秒记住.*|全文免费阅读.*|8 9 阅阅 读 网|看小说最快更新|“小#说看本书无广告更新最快”",
-        "[\\x20-\\x7e》]?无(?:.|&gt;)错.小说.{1,2}[Ｗw]+.*?[cＣ][oＯ][mＭ]",
-        "<无-错>",
-        "—无—错—小说",
-        "\\+无\\+错\\+",
-        "&amp;无&amp;错&amp;小说",
-        "无错小说 www.quled[Ｕu].com",
-      ],
-      contentPatch: function (fakeStub) {
-        // 去除内容开头、结尾的重复标题
-        var title = fakeStub.find("#htmltimu").text().replace(/\s+/, "\\s*");
-        var content = fakeStub.find("#htmlContent");
-        content.find("div[align='center']").remove();
-        if (title.match(/第\S+章/)) {
-          content.html(content.html().replace(new RegExp(title), "").replace(new RegExp(title), ""));
-        }
-      }
     },
     {
       siteName: '凤舞文学网',
@@ -926,54 +867,23 @@
     },
     {
       siteName: "冰火中文",
-      url: /^https?:\/\/www\.binhuo\.com\/html\/[\d\/]+\.html$/,
+      url: /^https?:\/\/www\.bhzw\.cc\/book\/[\d\/]+\.html$/,
       titleReg: /(.*?)最新章节,(.*?)-.*/,
       fixImage: true,
+      contentSelector: "#ChapterContents",
       contentRemove: 'font[color="red"]',
       contentReplace: {
-        "&lt;冰火#中文.*|冰火中文&nbsp;(www.)?binhuo.com(?:【首发】|)|冰.火.中文|绿色小说|lvsexs|冰火中文": "",
+        "&lt;冰火#中文.*|冰火中文&nbsp;(www.)?bhzw.cc(?:【首发】|)|冰.火.中文|绿色小说|lvsexs|冰火中文": "",
         "LU5.ｃｏM|lU５.com|LU5.com": "",
-        "([^/])www\\.binhuo\\.com(?:\\.com|)": "$1",
+        "([^/])www\\.bhzw\\.cc(?:\\.cc|)": "$1",
         "\\(.*?平南文学网\\)": "",
-      },
-      contentPatch: function (fakeStub) {
-        fakeStub.find("#BookText").append(fakeStub.find("img.imagecontent"));
       }
     },
     {
-      siteName: "百晓生",
-      url: /^https?:\/\/www\.bxs\.cc\/\d+\/\d+\.html/,
-      titleReg: /(.*?)\d*,(.*)/,
-      contentRemove: 'a, #txtright',
-      contentReplace: [
-        /一秒记住【】www.zaidu.cc，本站为您提供热门小说免费阅读。/ig,
-        /（文&nbsp;學馆w&nbsp;ww.w&nbsp;xguan.c&nbsp;om）/ig,
-        /（百晓生更新最快最稳定\)/g,
-        /\((?:&nbsp;)*(?:无弹窗)?全文阅读\)/ig,
-        /\[<a.*?首发\[百晓生\] \S+/ig,
-        /高速首发.*本章节是地址为/ig,
-        /\/\/(?:&nbsp;|访问下载txt小说|高速更新)+\/\//ig,
-        /(www\.)?bxs\.cc|www\.bxs(\.com)?/ig,
-        /百晓生.不跳字|不跳字。|更新快纯文字/ig,
-        /\.\[，！\]/ig,
-        /（未完待续&nbsp;http:\/\/www.Bxs.cc&nbsp;89免费小说阅《百晓生文学网》）/g,
-        /〖百晓生∷.*〗|《?百晓生文学网》?|最快阅读小说大主宰，尽在百晓生文学网.*|ww.x.om|欢迎大家来到.*?bxs\.cc|百晓生阅读最新最全的小说.*|百晓生网不少字|站长推荐.*|文字首发|百.晓.生.|关闭.*广告.*|飘天文学|本站域名就是.*|\(.{0,5}小说更快更好.{0,5}\)|(请在)?百度搜索.*|一秒记住.*为您提供精彩小说阅读.|百晓生|¤本站网址：¤|\/\/&nbsp;访问下载txt小说\/\/◎◎|纯站点\\".*值得收藏的/ig,
-        /文[学學][馆館]|www\.biquge\.cc|(http:\/\/)?www\.Bxs\.cc|(请牢记)?soudu．org/ig,
-        /请搜索，小说更好更新更快!|最快文字更新无弹窗无广|\(即可找到本站\)|无广告看着就是爽!|更多全本txt小说请到下载|∷更新快∷∷纯文字∷/ig,
-        /永久网址，请牢记！/ig,
-        /&nbsp;&gt;<\/p>/ig,
-      ],
-    },
-    {
-      siteName: "浩奇文学网",
-      url: /^https?:\/\/www\.haoqi99\.com\/.*\.shtml$/,
-      titleReg: /^(.*?)--(.*?)-/,
-    },
-    {
       siteName: "书河小说网",
-      url: /^https?:\/\/www\.shuhe\.cc\/\d+\/\d+/,
+      url: /^https?:\/\/www\.60355\.com\/\d+\/\d+/,
       titleReg: "([^\\d]+)\\d*,(.*?)_",
-      contentSelector: "#TXT",
+      contentSelector: "#content",
       contentReplace: /一秒记住.*为您提供精彩小说阅读.|\{请在百度搜索.*首发阅读\}|（书河小说网.*?无弹窗）|wxs.o|ww.x.om|[\[【\(].{1,30}[\]\)】]|ff37;.*|书河小说网高速首发.*|TXT下载|全文阅读|第一书河小说网|百书斋.*|首发来自书河小说网|本书最新章节|书河小说网/ig,
     },
     {
@@ -1114,17 +1024,6 @@
       }
     },
     {
-      siteName: "看下文学",
-      url: "^https?://www\\.kanxia\\.net/k/\\d*/\\d+/\\d+\\.html$",
-      titleReg: /(.*?)-(.*)TXT下载_看下文学/,
-      contentReplace: /看下文学/g
-    },
-    {
-      siteName: "青帝文学网",
-      url: /^https?:\/\/www\.qingdi\.com\/files\/article\/html\/\d+\/\d+\/\d+\.html$/,
-      titleReg: /(.*?)最新章节_(.*?)_青帝文学网_.*/
-    },
-    {
       siteName: "侠客中文网",
       url: /^https?:\/\/www\.xkzw\.org\/\w+\/\d+\.html/,
       contentSelector: ".readmain_inner .cont",
@@ -1187,19 +1086,6 @@
       contentReplace: "txt\\d+/",
     },
     {
-      siteName: "万书吧",
-      url: "^https?://www\\.wanshuba\\.com/Html/\\d+/\\d+/\\d+\\.html",
-      titleReg: "(.*?),(.*?)-万书吧",
-      titlePos: 1,
-      contentSelector: ".yd_text2",
-      contentReplace: [
-        "\\[www.*?\\]",
-        "\\(&nbsp;&nbsp;\\)",
-        "提供无弹窗全文字在线阅读，更新速度更快文章质量更好，如果您觉得不错就多多分享本站!谢谢各位读者的支持!",
-        "高速首发.*?，本章节是.*?地址为如果你觉的本章节还不错的话请不要忘记向您qq群和微博里的朋友推荐哦！"
-      ]
-    },
-    {
       siteName: "大文学",
       url: "^https?://www\\.dawenxue\\.net/html/\\d+/\\d+/\\d+\\.html",
       titleReg: "(.*?)-(.*)-大文学",
@@ -1214,12 +1100,6 @@
       contentSelector: "div.page-content .note",
       contentRemove: "a",
       contentReplace: "”奇热小说小说“更新最快|首发,/.奇热小说网阅读网!|奇热小说网提供.*|\\(手机用户请直接访问.*"
-    },
-    {
-      siteName: "热点",
-      url: "^https?://www\\.hotsk\\.com/Html/Book/\\d+/\\d+/\\d+\\.shtml",
-      titleReg: "(.*?) 正文 (.*?)- 热点书库 -",
-      contentReplace: "\\(热点书库首发:www.hotsk.com\\)|www.zhuZhuDao.com .猪猪岛小说."
     },
     {
       siteName: "落秋中文",
@@ -1559,7 +1439,7 @@
     {
       siteName: "读读看",
       url: "^https?://www\\.dudukan\\.net/html/.*\\.html$",
-      contentReplace: "看小说“就爱读书”|binhuo|www\\.92to\\.com",
+      contentReplace: "看小说“就爱读书”|bhzw|www\\.92to\\.com",
       useiframe: true,
       mutationSelector: "#main",
       mutationChildCount: 0,
@@ -1671,28 +1551,6 @@
           "class": 'reader-ajax',
           src: scriptSrc
         });
-      }
-    },
-    {
-      siteName: "哈哈文学",
-      url: /^https?:\/\/www\.hahawx\.com\/.*htm/,
-      titleReg: /(.*?)-(.*?)-.*/,
-      contentSelector: "#chapter_content",
-      contentReplace: /(?:好书推荐|书友在看|其他书友正在看|好看的小说|推荐阅读)：。|(?:www|ｗｗｗ|ｂｏｏｋ).*(?:com|net|org|ｃｏｍ|ｎｅｔ)|全文字阅读|无弹窗广告小说网|哈哈文学\(www.hahawx.com\)|souDU.org|Ｓｏｕｄｕ．ｏｒｇ|jīng彩推荐：/ig,
-      contentPatch: function (fakeStub) {
-        var $content = fakeStub.find("#chapter_content");
-        var m = $content.find("script").text().match(/output\((\d+), "(\d+\.txt)"\);/);
-        if (m && m.length == 3) {
-          var aid = m[1],
-            files = m[2];
-          var subDir = "/" + (Math.floor(aid / 1000) + 1),
-            subDir2 = "/" + (aid - Math.floor(aid / 1000) * 1000);
-          $content.attr({
-            class: "reader-ajax",
-            src: "http://r.xsjob.net/novel" + subDir + subDir2 + "/" + files,
-            charset: "gbk"
-          });
-        }
       }
     },
     {
@@ -2324,9 +2182,9 @@
       contentRemove: '.bottem',
     },
     {
-      siteName: "笔趣阁",
-      url: /^https?:\/\/www\.biquge\.com\.tw\/\d+_\d+\/\d+.html/,
-      siteExample: 'http://www.biquge.com.tw/17_17768/8280656.html',
+      siteName: "笔趣读",
+      url: /^https?:\/\/www\.biqudu\.com\.tw\/\d+_\d+\/\d+.html/,
+      siteExample: 'http://www.biqudu.com.tw/17_17768/8280656.html',
       contentSelector: "#content"
     },
     {
@@ -4325,13 +4183,6 @@
         referrer = document.referrer;
 
       switch (true) {
-        case locationHost == 'tieba.baidu.com':
-          var title = $('.core_title_txt').text();
-          if (title.match(Rule.titleRegExp)) {
-            return false;
-          } else {
-            return -1;
-          }
         case GM_getValue("auto_enable"):
         case config.soduso && /www\.sodu\.so/.test(referrer):
           return true;
