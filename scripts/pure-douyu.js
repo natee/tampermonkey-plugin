@@ -76,7 +76,12 @@
   }
 
   const addStyle = () => {
-    const css = '.hidden.hidden1.hidden2 { display:none!important; }';
+    const css = `
+      .hidden.hidden1.hidden2,
+      .LotteryContainer-svgaWrap,
+      .LotteryContainer { 
+        display:none!important;
+      }`;
     const head = document.head || document.getElementsByTagName('head')[0];
     let style = document.createElement('style');
     style.type = 'text/css';
