@@ -77,11 +77,13 @@
 
   const addStyle = () => {
     const css = `
+      ${hideElems.join(',')},
       .hidden.hidden1.hidden2,
       .LotteryContainer-svgaWrap,
-      .LotteryContainer { 
+      .LotteryContainer {
         display:none!important;
       }`;
+
     const head = document.head || document.getElementsByTagName('head')[0];
     let style = document.createElement('style');
     style.type = 'text/css';
@@ -167,7 +169,7 @@
   /**
    * 屏蔽播放器区域的弹幕、飞机、各种漂浮物等
    * 这个需要等到播放器加载后才能渲染
-   * @param { DOMTokenList } playserElemChildren 
+   * @param { DOMTokenList } playserElemChildren
    */
   const hidePlayerAds = (playserElemChildren) => {
     for (let i = 0; i < playserElemChildren.length; i++) {
