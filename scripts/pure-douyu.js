@@ -21,6 +21,7 @@
   const palyerId = '#__h5player'; // 播放器id，需隐藏它的所有兄弟节点
 
   const hideElems = [
+    '.UPlayerLotteryEnter', // 左下角漂浮的房间开奖
     '.Title-anchorPic',
     '#dysign-30008',
     '#js-bottom',
@@ -121,10 +122,13 @@
     const timeout2 = promiseDelay(2000);
     timeout2.promise().then(() => {
       const playerElem = document.querySelector(palyerId);
-      const playserElemChildren = playerElem.children;
+      let playserElemChildren = undefined;
+      if(playerElem){
+        playserElemChildren = playerElem.children;
+      }
 
       // 表示各种乱七八糟的未加载完毕
-      if (playserElemChildren.length < 10) {
+      if (!playserElemChildren || playserElemChildren.length < 10) {
         checkPlayerComponents();
       } else {
         timeout2.clearTimeout();
