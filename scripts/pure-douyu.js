@@ -18,7 +18,7 @@
   const noneClassName = 'hidden';//'（⊙\.⊙）';
   const noneClassName1 = 'hidden1';
   const noneClassName2 = 'hidden2';
-  const palyerId = '#__h5player'; // 播放器id，需隐藏它的所有兄弟节点
+  const playerId = '#__h5player'; // 播放器id，需隐藏它的所有兄弟节点
 
   const hideElems = [
     '.UPlayerLotteryEnter', // 左下角漂浮的房间开奖
@@ -98,7 +98,7 @@
   }
 
   const hide = (element) => {
-    if(element){
+    if (element) {
       element.classList.add(noneClassName, noneClassName1, noneClassName2)
     }
   }
@@ -121,9 +121,9 @@
 
     const timeout2 = promiseDelay(2000);
     timeout2.promise().then(() => {
-      const playerElem = document.querySelector(palyerId);
+      const playerElem = document.querySelector(playerId);
       let playserElemChildren = undefined;
-      if(playerElem){
+      if (playerElem) {
         playserElemChildren = playerElem.children;
       }
 

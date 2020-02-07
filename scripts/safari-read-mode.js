@@ -4848,7 +4848,7 @@
       UI.fixMobile();
 
     },
-    insertCss: function(){
+    insertCss: function () {
       var $style = $("#skin_style");
       if ($style.length === 0) {
         $style = $('<style id="skin_style">').appendTo('head');
@@ -4896,7 +4896,7 @@
 
       $("<div class='novel-trigger'>")
         .html(App.isEnabled ? "X" : "D")
-        .on('click', function(){
+        .on('click', function () {
           App.toggle();
         })
         .appendTo('body');
@@ -4945,7 +4945,7 @@
       let $skinWrap = $('<div class="novel-skins"></div>');
       for (let skinName in UI.skins) {
         const item = UI.skins[skinName];
-        const $skin = $(`<span class="novel-skins__item ${item.val}" style="color: ${item.textColor};background: ${item.bgColor}">`).on("click", function(){
+        const $skin = $(`<span class="novel-skins__item ${item.val}" style="color: ${item.textColor};background: ${item.bgColor}">`).on("click", function () {
           UI.refreshSkinStyle(item.val);
           Setting.skin_name = item.val;
         });
@@ -4954,21 +4954,21 @@
 
       // 字号调整
       let $fontSizeWrap = $('<div class="novel-font"></div>');
-      const $smaller = $(`<span class="novel-font__item novel-font__smaller">`).text('A').on("click", function(){
+      const $smaller = $(`<span class="novel-font__item novel-font__smaller">`).text('A').on("click", function () {
         UI.changeFontSize(-2);
       });
-      const $bigger = $(`<span class="novel-font__item novel-font__bigger">`).text('A').on("click", function(){
+      const $bigger = $(`<span class="novel-font__item novel-font__bigger">`).text('A').on("click", function () {
         UI.changeFontSize(2);
       });
       $fontSizeWrap.append($smaller).append($bigger);
-      
+
       $confWrap.append($skinWrap);
       $confWrap.append($fontSizeWrap);
 
     },
 
     changeFontSize: function (fontSize) {
-      const curFontSize = Number(Setting.font_size.replace('px',''));
+      const curFontSize = Number(Setting.font_size.replace('px', ''));
       Setting.font_size = (curFontSize + fontSize) + 'px';
 
       // 重新载入样式

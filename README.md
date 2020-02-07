@@ -30,7 +30,7 @@
 
   
   
-### [斗鱼纯净版](scripts/safari-red-mode.js)
+### [斗鱼纯净版](scripts/pure-douyu.js)
 屏蔽弹幕、火箭等特效，屏蔽聊天框等额外内容，整个直播间仅留下播放器
   
 #### 示例
@@ -40,3 +40,5 @@
 使用后：
 ![斗鱼纯净版使用后](assets/dy-after.png)
 
+### [虎牙纯净版](scripts/pure-huya.js)
+效果同斗鱼
