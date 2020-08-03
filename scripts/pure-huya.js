@@ -92,7 +92,7 @@
       const playerElem = document.querySelector(elemId);
 
       if (!playerElem) {
-        checkElementLoaded();
+        checkElementLoaded(elemId);
       } else {
         const playerParent = playerElem.parentNode;
         const siblings = Array.from(playerParent.children);
