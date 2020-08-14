@@ -15,6 +15,21 @@
 (function () {
   'use strict';
 
+  const hideElems = [
+    '.special-bg', // 顶部大banner
+    '#chatRoom', // 聊天滚屏
+    '.room-footer', // 播放器下方内容
+    '.hy-side', // 首页右侧让你下载等垃圾内容
+    '.mod-news-section', // 首页新闻
+    '.live-box', // 首页没什么用的东西
+    '#player-marquee-wrap', // 视频区域上方滚动内容
+    '.diy-activity-icon', // 操作栏陪玩主播推荐等
+    '.more-activity-icon', // 更多垃圾内容
+    '.player-banner-gift', // 贵族送礼特效
+    '.ab-icon'
+  ];
+
+
   const promiseDelay = ms => {
     let timeout
 
@@ -29,11 +44,14 @@
   }
 
   const addStyle = () => {
-    const css = `
+    let css = `
       .hidden.hidden1.hidden2 {
         display:none!important;
       }
     `;
+    hideElems.forEach(seletor => {
+      css += `${seletor}{display:none!important;}`
+    });
 
     const head = document.head || document.getElementsByTagName('head')[0];
     let style = document.createElement('style');
@@ -66,15 +84,7 @@
    * 直接屏蔽页面元素，比如右侧的评论框，左侧的导航栏，下方的推荐、广告各种垃圾
    */
   function hideBySelector() {
-    const hideElems = [
-      '.special-bg', // 顶部大banner
-      '#chatRoom', // 聊天滚屏
-      '.room-footer', // 播放器下方内容
-      '.hy-side', // 首页右侧让你下载等垃圾内容
-      '.mod-news-section', // 首页新闻
-      '.live-box', // 首页没什么用的东西
-    ];
-
+    
     const timeout = promiseDelay(300);
     timeout.promise().then(() => {
       hideElems.forEach(seletor => {
